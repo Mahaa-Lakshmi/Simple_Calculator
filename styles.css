@@ -1,0 +1,47 @@
+.outer
+{
+	background-color: rgb(230, 220, 218);/*
+	margin: 100px 500px 100px 500px;
+	min-width: 500px;
+	margin:0 auto;*/
+	min-height: 70%;
+	text-align: center;
+	padding:10px;
+	border-radius: 10px;
+}
+
+.title
+{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.textbox>input
+{
+	width:80%;
+	min-height: 50px;
+	font-size: 30px;
+	text-align: right;
+	overflow: hidden;
+	
+}
+button
+{
+	height: 70px;
+	width: 70px;
+	margin:5px;
+	font-size: 30px;
+
+}
+
+/*Responsive*/
+@media screen and (max-width:800px) {
+  .outer {
+    margin:0 auto; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+@media screen and (min-width:801px) {
+  .outer {
+    margin: 100px 500px 100px 500px; /* The width is 100%, when the viewport is 801px or larger */
+  }
+}
